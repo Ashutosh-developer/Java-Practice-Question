@@ -18,6 +18,8 @@ class Arrays_Question1{
 	// Extra space
 	// Time Complexity -> O(n)
 	// Space Complexity -> O(n)
+
+
 	public static void reverse(int[] arr){
 		int[] reverse = new int[arr.length];
 		int j = 0;
@@ -35,6 +37,8 @@ class Arrays_Question1{
 	// Without space
 	// Time Complexity -> O(n)
 	// Space Complexity -> O(1)
+
+	
 	public static void reverseWithoutSpace(int arr[]){
 		int i = 0;
 		int j = arr.length -1;
