@@ -3,6 +3,7 @@ public class insertionSort{
 		int arr[] = {7,8,3,1,2};
 
 		//insertion Sort
+		
 		for(int i = 0; i<arr.length; i++){
 			int current = arr[i];
 			int j = i-1;
