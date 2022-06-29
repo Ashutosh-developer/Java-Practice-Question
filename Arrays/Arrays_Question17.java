@@ -1,15 +1,17 @@
 import java.util.*;
-public class mergeSort{
+public class Arrays_Question17{
 	public static void main(String args []){
 		// Given Array
-		int arr [] = {2,4,1,3,5};
+		int arr [] = {2, 4, 1, 3, 5};
 		int l = 0; 
 		int r = arr.length-1;
 		sort(arr,l, r);
-		System.out.println(Arrays.toString(arr));
+		
+		System.out.println(merge(int arr[], int l, int m, int r));
+		//System.out.println(Arrays.toString(arr));
 	}
 
-	public static void sort(int arr[], int l, int r){
+	public static int sort(int arr[], int l, int r){
 		if(l<r){
 			//finding mid value of array
 			int m = l+(r-l)/2;
@@ -21,13 +23,15 @@ public class mergeSort{
 
 			//merging the array from subparts with sorting
 			merge(arr,l,m,r);
+
 		}
 	}
 
-	public static void merge(int arr[], int l, int m, int r){
+	public static int merge(int arr[], int l, int m, int r){
 		// finding the size of sub arrays in which the array is divided
 		int n1 = m-l+1;
 		int n2 = r-m;
+
 
 		//declaring the size of subarray
 		int L[] = new int[n1];
@@ -47,6 +51,7 @@ public class mergeSort{
 
 		int k =0;
 		i=0; j=0;
+		int swaps = 0;
 
 		//comparing and merging the sub arrays 
 		while(i<n1 && j<n2){
@@ -57,6 +62,7 @@ public class mergeSort{
 				arr[l+k] = R[j];
 				j++;
 			}
+			swaps += (m + 1) - (l + i);
 			k++;
 		}
 
@@ -72,5 +78,6 @@ public class mergeSort{
 			j++;
 			k++;
 		}
+		return swaps;
 	}
 }
