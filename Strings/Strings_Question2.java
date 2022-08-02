@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 class Strings_Question2{
 	public static void main(String [] args) {
 		String str = "abcba";
