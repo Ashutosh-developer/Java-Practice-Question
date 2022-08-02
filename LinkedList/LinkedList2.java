@@ -1,8 +1,6 @@
 import java.util.*;
 
-public class LinkedList2 {
-	
-	class Node {
+class Node {
 		int data;
 		Node next;
 
@@ -10,7 +8,9 @@ public class LinkedList2 {
 			this.data = data;
 			this.next = null;
 		}
-	}
+}
+
+public class LinkedList2 {
 
 	Node head;
 	Node tail;
@@ -23,12 +23,12 @@ public class LinkedList2 {
 		list.addAtHead(20);
 		list.addAtHead(10);
 
-		// list.display();
+		list.display();
 
 		// System.out.println("------------------");
 
 		// list.addAtTail(50);
-		list.display();
+		// list.display();
 
 		// System.out.println(list.size);
 		
@@ -42,8 +42,14 @@ public class LinkedList2 {
 
 		// Testing -> addition of node at a particular location
 
-		list.addAtMid(70);
+		// list.addAtMid(70);
+		// list.display();
+
+		// System.out.println("------------------");
+
+		list.deleteAtLocation(3);
 		list.display();
+
 
 	}
 
@@ -110,7 +116,7 @@ public class LinkedList2 {
 	public void addAtMid(int data){
 		int mid = (size/2);
 
-		Node prev = getAtNode(mid);
+		Node prev = getAtNode(mid-1);
 		Node node = new Node(data);
 
 		node.next = prev.next;
@@ -119,6 +125,55 @@ public class LinkedList2 {
 	}
 
 
+	// Deletion at head...
+
+	public int deleteAtHead(){
+		if(this.head == null){
+			return -1;
+		}
+
+		int value = this.head.data;
+		this.head = this.head.next;
+
+		return value;
+	}
+
+	// Deletion at tail...
+	public int deleteAtTail(){
+		if(this.head == null){
+			return -1;
+		}
+
+		int value = this.tail.data;
+		this.tail = getAtNode(this.size-1);
+		this.tail.next = null;
+		return value;
+	}
+
+	// Deletion at location
+	public int deleteAtLocation(int location){
+		
+		if(this.head == null){
+			return -1;     
+		}
+
+		if(location == 1){
+			return deleteAtHead();
+
+		}
+
+		if(location == size){
+			return deleteAtTail();
+		}
+
+		Node current = getAtNode(location);
+		Node prev = getAtNode(location - 1);
+
+		prev.next = current.next;
+		current.next = null;
+
+		return current.data;
+	}
 
 	// Get Node data at a location -> 1 based index 
 	public int getAt(int location){
