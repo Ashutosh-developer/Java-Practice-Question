@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 public class Arrays_Question16{
 	public static void main(String[] args) {
 		int arr[] = {1,4,6,45,10,8};
