@@ -25,7 +25,12 @@ public class LinkedList2 {
 
 		list.display();
 
-		// System.out.println("------------------");
+		System.out.println("------------------");
+
+
+		list.addAtlocation(23,3);
+
+		list.display();
 
 		// list.addAtTail(50);
 		// list.display();
@@ -38,17 +43,17 @@ public class LinkedList2 {
 		// int val = list.getAt(2);
 		// System.out.println(val);
 
-		System.out.println("------------------");
-
-		// Testing -> addition of node at a particular location
-
-		// list.addAtMid(70);
-		// list.display();
-
 		// System.out.println("------------------");
 
-		list.deleteAtLocation(3);
-		list.display();
+		// // Testing -> addition of node at a particular location
+
+		// // list.addAtMid(70);
+		// // list.display();
+
+		// // System.out.println("------------------");
+
+		// list.deleteAtLocation(3);
+		// list.display();
 
 
 	}

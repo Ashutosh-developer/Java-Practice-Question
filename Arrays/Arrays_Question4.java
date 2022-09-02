@@ -1,13 +1,6 @@
 import java.util.*;
 
 public class Arrays_Question4{
-	public static void main(String[] args) {
-		int arr[] = {1,2,2,1,2,0,0,0};
-		int size = arr.length;
-
-		//Sorting_a(a, size);
-		Sorted_array(arr);
-	}
 		
 	public static void Sorting_a (int a[], int size){
 		int zero = 0;
@@ -64,5 +57,13 @@ public class Arrays_Question4{
 			}
 		}
 		System.out.println(Arrays.toString(arr));
+	}
+
+	public static void main(String[] args) {
+		int arr[] = {1,2,2,1,2,0,0,0};
+		int size = arr.length;
+
+		//Sorting_a(a, size);
+		Sorted_array(arr);
 	}
 }
