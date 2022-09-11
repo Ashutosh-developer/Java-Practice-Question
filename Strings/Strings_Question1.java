@@ -18,7 +18,7 @@ class String_Question1{
 	public static void reverseString3(String input1){
 		char[] cArray = input1.toCharArray();
 		StringBuilder tempS = new StringBuilder();
-		String result = "";
+		//String result = "";
 
 		for(int i = 0; i < cArray.length; i++){
 			if(cArray[i] != ' '){
@@ -33,7 +33,7 @@ class String_Question1{
 			}
 			else{
 				tempS.reverse();
-				result += tempS;
+				//result += tempS;
 				tempS.append("");
 			}
 		}
