@@ -87,6 +87,16 @@ public class String_Question9{
 				return false;
 			}
 		}
-		return true;
+		// Extract all keys of HashMap/map
+        Set<Character> keys = map.keySet();
+        // Loop over all keys and check if all keys are 0.
+        // If so it means it is anagram.
+        for (Character key : keys) {
+            if (map.get(key) != 0) {
+                return false;
+            }
+        }
+        // Returning True as all keys are zero
+        return true;
 	}
 }
