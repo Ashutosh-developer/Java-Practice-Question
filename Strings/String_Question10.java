@@ -14,7 +14,7 @@ public class String_Question10{
 
 			if(str.charAt(i) != str.charAt(j)){
 				count++;
-			}else{
+			}else{/  
 				count = 0;
 			}
 
