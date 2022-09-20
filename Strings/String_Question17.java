@@ -1,4 +1,3 @@
-// Java program for the above approach
 import java.util.*;
 class GFG {
 
