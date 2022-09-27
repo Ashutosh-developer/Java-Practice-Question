@@ -14,7 +14,7 @@ public class LinkedList6{
 
        System.out.println(list2);
        
-       Collections.reverse(list2);
+       // Collections.reverse(list2);
 
        System.out.println(list2);
 
