@@ -20,7 +20,7 @@ public class moveAllX{
 	}
 
 	public static void main(String args[]) {
-		String str = "abcdefxghxixjxxxk";
+		String str = "axbxxc";
 		int count = 0;
 		String newStr = moveAllX(str, 0, count);
 		System.out.println(newStr);
