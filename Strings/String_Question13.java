@@ -2,7 +2,7 @@ import java.util.*;
 
 public class String_Question13{
 	public static void main(String[] args) {
-		String s = "abaacdaefaah";
+		String s = "abcd";
 		char search = 'n';
 
 		/*if(firstOccurance(s,search) == -1){
@@ -12,7 +12,7 @@ public class String_Question13{
 		System.out.println(lastOccurance(s,search));
 		}*/
 
-		getIndices(s,'a',0);
+		getIndices(s,'b',0);
 
 		System.out.println("First occurence : " + first);
 		System.out.println("Last occurence : " + last);
@@ -32,6 +32,9 @@ public class String_Question13{
 				first = idx;
 			} else {
 			last = idx;
+		}
+		if(last == -1){
+			last = first;
 		}
 	}
 	getIndices(str, el, idx+1);

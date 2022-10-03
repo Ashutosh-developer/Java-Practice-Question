@@ -4,7 +4,7 @@ import java.util.*;
 
 public class occuranceString{
 	public static void main (String args[]){
-		String s = "abaacdaefaah";
+		String s = "abaacdaae";
 		findOccurance(s ,0 , 'a');
 	}
 
@@ -25,6 +25,10 @@ public class occuranceString{
 				first = idx;
 			}else{
 				last = idx;
+			}
+
+			if(last == -1){
+				last = first;
 			}
 		}
 
