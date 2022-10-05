@@ -4,7 +4,7 @@ import java.util.*;
 
 //5,4,3,2,1 		i=0			j=arr.length
 
-class Arrays_Question1{
+class revArr{
 	public static void main(String[] args) {
 		// Input
 

@@ -1,5 +1,5 @@
 import java.util.*;
-public class Arrays_Question2{
+public class minMax{
 
 	// pairs is used to get multiple outputs from a method...
 
