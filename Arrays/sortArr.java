@@ -1,5 +1,7 @@
 import java.util.*;
-public class Arrays_Question3{
+public class sortArr{
+
+	//is array sorted via for loop 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int t = sc.nextInt();

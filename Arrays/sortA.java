@@ -1,7 +1,7 @@
 import java.util.*;
 
-public class Arrays_Question4{
-		
+public class sortA{
+	// moving 0's,1's,2's in sorted order
 	public static void Sorting_a (int a[], int size){
 		int zero = 0;
 		int one = 0;

@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Arrays_Question5{
+class sortingArr{
 	public static void main(String[] args) {
 		int arr[] = {1,2,-6,33,-3, 4,-5};
 		sorting_arr(arr);
