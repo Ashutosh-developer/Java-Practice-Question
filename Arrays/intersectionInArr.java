@@ -1,4 +1,4 @@
-public class Arrays_Question8{
+public class intersectionInArr{
 	public static void main(String[] args) {
 		int arr1[]= {1,4,6,7,8};
 		int arr2[]= {1,2,3,4,9};

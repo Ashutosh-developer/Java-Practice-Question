@@ -1,5 +1,5 @@
 import java.util.*;
-public class Arrays_Question10{
+public class kadaneAlgo{
 	public static void main(String[] args) {
 		int a[] = {-2 ,1 ,-3, 4, -1, 2, 1, -5, 4};
 		// 9

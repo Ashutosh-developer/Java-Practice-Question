@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Arrays_Question6{
+class unioncount{
 	public static void main(String[] args) {
 		int arr_1[] = {85,25,1,32,54,6};
 		int arr_2[] = {85,2};
