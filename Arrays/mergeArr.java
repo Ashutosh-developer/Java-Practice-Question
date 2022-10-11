@@ -1,5 +1,5 @@
 import java.util.*;
-public class Arrays_Question14{
+public class mergeArr{
 	public static void main(String args[]){
 	int arr1[] = {2,3,5,7};
 	int arr2[] = {1,4,6,8,9};
@@ -26,8 +26,7 @@ public class Arrays_Question14{
 		Arrays.sort(arr1);
 		Arrays.sort(arr2);
 
-		System.out.println(Arrays.toString(arr1));
-		System.out.println(Arrays.toString(arr2));
+		System.out.print(Arrays.toString(arr1) +" "+ Arrays.toString(arr2));
 
 	}
 }

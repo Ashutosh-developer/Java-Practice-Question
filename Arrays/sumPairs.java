@@ -1,4 +1,4 @@
-public class Arrays_Question11{
+public class sumPairs{
 	public static void main(String[] args) {
 		//Count pairs with given sum
 		int arr[] = {-1,1,5,5,7};

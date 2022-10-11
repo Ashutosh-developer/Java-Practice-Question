@@ -1,5 +1,5 @@
 import java.util.*;
-public class Arrays_Question13{
+public class dupliNo{
 	public static void main(String args[]){
 		//Find the Duplicate Number
 

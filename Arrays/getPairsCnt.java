@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Arrays_Question12{
+public class getPairsCnt{
 	public static void main(String[] args) {
 		int arr[] = {1,5,1,7};
 		int n = arr.length;
