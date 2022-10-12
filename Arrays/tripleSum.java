@@ -1,5 +1,5 @@
 // import java.util.*;
-public class Arrays_Question16{
+public class tripleSum{
 	public static void main(String[] args) {
 		int arr[] = {1,4,6,45,10,8};
 		int n = arr.length-1;
