@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Arrays_Question19{
+class findSecLarge{
 	public static void main(String[] args) {
 	
 	int arr[] = {12,35,1,10,23,34,1};
