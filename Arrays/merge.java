@@ -1,5 +1,5 @@
 import java.util.*;
-class Arrays_Question20{
+class merge{
 	public static void main(String args[]){
 		int arr1[] = {2, 3, 6, 7, 9};
 		int arr2[] = {1, 4, 8, 10};
