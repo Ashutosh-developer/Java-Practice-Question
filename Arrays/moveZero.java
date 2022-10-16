@@ -1,5 +1,5 @@
 import java.util.*;
-public class Arrays_Question21{
+public class moveZero{
 	public static void main(String[] args) {
 	//move zeroes to the end of the array
 	int arr[] = {4,5,0,1,9,0,5,0};
