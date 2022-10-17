@@ -1,5 +1,5 @@
 import java.util.*;
-public class Arrays_Question22{
+public class moreThanNdK{
 	public static void main(String args[]){
 		int arr[] = {3,1,2,2,1,3,3,2};
 		int n = arr.length-1;
