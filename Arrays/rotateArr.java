@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Arrays_Question25{
+class rotateArr{
     public static void main(String args[] ){
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
