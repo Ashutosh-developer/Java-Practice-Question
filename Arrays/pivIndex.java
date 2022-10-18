@@ -1,4 +1,4 @@
-public class Arrays_Question24{
+public class pivIndex{
 	public static void main(String[] args) {
 		int arr[] = {1, 7, 3, 6, 5, 6};
 		
