@@ -2,7 +2,7 @@ import java.util.*;
 
 public class towerofHanoi{
 	public static void main(String args[]){
-		int n = 3;
+		int n = 5;
 		towerOfHanoi(n,"S","H","D");
 	}
 

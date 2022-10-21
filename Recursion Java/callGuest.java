@@ -2,7 +2,7 @@ import java.util.*;
 
 public class callGuest{
 	public static void main(String[] args) {
-		int n = 2;
+		int n = 5;
 		System.out.println(callGuests(n));
 	}
 
