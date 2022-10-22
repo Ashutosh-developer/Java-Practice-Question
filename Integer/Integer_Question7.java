@@ -3,7 +3,7 @@ import java.util.*;
 public class Integer_Question7{
 	public static void main(String[] args) {
 		Double x = 2d;
-		int n = 6;
+		int n = 64;
 
 		System.out.println(myPow(x,n));
 	}
