@@ -1,6 +1,6 @@
 class printXpowN{
 	public static void main(String[] args) {
-		int x = 2, n = 5;
+		int x = 2, n = 4;
 		int ans = calcPower(x,n);
 		System.out.println(ans);
 	}
