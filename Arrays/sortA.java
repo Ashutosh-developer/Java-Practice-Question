@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Arrays;
 
 public class sortA{
 	// moving 0's,1's,2's in sorted order
@@ -34,6 +34,9 @@ public class sortA{
 	}
 
 	// sorting of array without using loops
+	/**
+	 * @param arr
+	 */
 	public static void Sorted_array(int []arr){
 		int temp = 0;
 		int mid = 0;
@@ -61,7 +64,7 @@ public class sortA{
 
 	public static void main(String[] args) {
 		int arr[] = {1,2,2,1,2,0,0,0};
-		int size = arr.length;
+		// int size = arr.length;
 
 		//Sorting_a(a, size);
 		Sorted_array(arr);

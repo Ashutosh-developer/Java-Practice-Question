@@ -8,6 +8,7 @@ class LL{
 
 	class Node {
 		String data;
+		private Object next;
 		Node = next;
 
 		Node(String data){

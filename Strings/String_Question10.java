@@ -7,6 +7,10 @@ public class String_Question10{
 		System.out.println(nonRepeatingSubstring(str));
 	}
 
+	/**
+	 * @param str
+	 * @return
+	 */
 	public static int nonRepeatingSubstring(String str){
 		int count = 0, msf = 0;
 		for(int i = 0; i < str.length()-1; i++){
@@ -14,7 +18,7 @@ public class String_Question10{
 
 			if(str.charAt(i) != str.charAt(j)){
 				count++;
-			}else{/  
+			}else{  
 				count = 0;
 			}
 
