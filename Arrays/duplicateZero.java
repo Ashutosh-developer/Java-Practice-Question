@@ -4,7 +4,7 @@ class duplicateZero{
 
 		int length = arr.length;
 		int [] res = new int[length];
-		int j = 0;
+		// int j = 0;
 
 		// printarr(arr);
 		for(int i = 0; i < arr.length; i++){
@@ -12,7 +12,7 @@ class duplicateZero{
 		}
 		System.out.println();
 
-		duplicateZeroes(arr, 0, res, length);
+		duplicateZeroes(arr, res, length);
 		
 		for(int i = 0; i < arr.length; i++){
 			System.out.print(res[i] + ", ");
@@ -21,20 +21,23 @@ class duplicateZero{
 		// printarr(arr);
 	}
 
-	public static void duplicateZeroes(int []arr, int j, int res[], int length){
+	public static void duplicateZeroes(int []arr, int[] res, int length){
+		
 
-		for(int i = 0; i< length && j < length; i++){
-			if(arr[i] != 0){
-				arr[j] = arr[i];
-			}else{
-				j++;
-			}
-			j++;
+		for(int i = 0; i< arr.length-1; i++){
+			res[i] = arr[i];
+			if(arr[i] == 0){
+				res[i+1] = 0;
+				if((i+1)<=arr.length && (i+2)<=arr.length){
+				 arr[i+1] = res[i+2];
+				}
+			
+			
+		}
+		
+		
 		}
 
-		for(int i = 0; i < length; i++){
-			arr[i] = res[i];
-		}
 	}
 
 	/*public static void printarr(int arr[]){
