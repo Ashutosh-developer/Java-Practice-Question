@@ -3,10 +3,10 @@ public class findMedian{
 	public static void main(String args[]){
 	int arr[] = { 1, 3, 4, 2, 7, 5, 8, 6};
 
-	findMedian(arr);
+	find_Median(arr);
 	}
 
-	private static void findMedian(int []arr){
+	private static void find_Median(int []arr){
 	
 	Arrays.sort(arr);
 	int k = arr.length;
