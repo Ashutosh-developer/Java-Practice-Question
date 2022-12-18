@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 
 class findSecLarge{
 	public static void main(String[] args) {
@@ -12,7 +12,7 @@ class findSecLarge{
 
 	public static void findSecondlargest(int arr[], int n){
 
-		int i, first, second;
+		int i, second;
  
  
     int largest = second = Integer.MIN_VALUE;
