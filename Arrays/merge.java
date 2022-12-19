@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 class merge{
 	public static void main(String args[]){
 		int arr1[] = {2, 3, 6, 7, 9};
@@ -15,7 +15,7 @@ class merge{
 
 		int arr3[] = new int[length];
 
-		for(int i = length-1; i>=0; i--){
+		for(int i = length-1; i>0; i--){
 			if(arr1[m]>arr2[n]){
 				arr3[i] = arr1[m];
 				m--;
