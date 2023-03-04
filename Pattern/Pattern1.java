@@ -1,10 +1,12 @@
-class Pattern1{
-	public static void main(String[] args) {
-		int n = 5;
-		int m = 4;
-		for(int i = 1; i<=m; i++){
-			for(int k = 1; k<= n; k++){
-				System.out.print("*\t");
+import java.util.*;
+public class pattern1{
+	public static void main(String args[]){
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+
+		for(int line = 1; line <= n; line++){
+			for(int star = 1; star <= line; star++){
+				System.out.print("*");
 			}
 			System.out.println();
 		}
