@@ -1,0 +1,74 @@
+What is an Array?
+->An array is a collection of data elements of the same type that are stored in contiguous memory locations and can be accessed using an index.
+
+An array can be thought of as a container that holds a fixed number of elements, each identified by its index or position within the array. The index starts at 0, which means that the first element in the array is at position 0, the second element is at position 1, and so on.
+
+Arrays are commonly used to store and manipulate collections of data such as lists, tables, and matrices. They provide a convenient way to access and manipulate data in memory, which makes them essential for many programming tasks, including algorithms, data structures, and numerical computations.
+
+
+Arrays are used in computer programming for several reasons:
+
+Storing and accessing collections of data: Arrays allow programmers to store and access collections of data in a convenient way. The elements of an array can be accessed using their index, which makes it easy to retrieve and manipulate specific elements of the collection.
+
+Efficient memory usage: Because the elements of an array are stored in contiguous memory locations, it is more efficient to access them than to use a collection of variables. This is because accessing a contiguous block of memory is faster than accessing multiple non-contiguous blocks.
+
+Iterating over data: Arrays are also used for iterating over a collection of data. For example, if you want to perform a particular operation on each element in a collection, you can use a loop to iterate over the array.
+
+Sorting and searching: Arrays are commonly used for sorting and searching algorithms. Sorting an array involves rearranging its elements in a specific order, such as ascending or descending. Searching an array involves finding a specific element in the array.
+
+Multi-dimensional data structures: Arrays can also be used to create multi-dimensional data structures such as matrices, tables, and graphs. In these cases, the elements of the array represent the values in the structure, and the indexes are used to identify the location of each value within the structure.
+
+
+
+
+Declaration of the array in java:-
+
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+
+int[] myNum = {10, 20, 30, 40};
+
+
+
+Here are some of the most commonly used methods of arrays in Java:
+
+length: Returns the number of elements in the array.
+
+clone: Returns a shallow copy of the array.
+
+sort: Sorts the elements of the array in ascending order.
+
+fill: Fills the elements of the array with a specified value.
+
+binarySearch: Searches the array for a specified element using a binary search algorithm.
+
+copyOf: Creates a new array with a copy of the elements of the original array.
+
+toString: Returns a string representation of the array.
+
+equals: Compares the contents of two arrays for equality.
+
+asList: Returns a fixed-size list backed by the array.
+
+stream: Returns a stream of elements in the array for processing using Java 8 streams API.
+
+Time complexity
+
+length: O(1)
+
+clone: O(n)
+
+sort: O(n log n)
+
+fill: O(n)
+
+binarySearch: O(log n)
+
+copyOf: O(n)
+
+toString: O(n)
+
+equals: O(n)
+
+asList: O(1)
+
+stream: O(n

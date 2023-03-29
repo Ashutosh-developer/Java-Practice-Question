@@ -1,0 +1,55 @@
+What is String?
+->A string is a sequence of characters that is used to represent text or other types of data. A string can contain letters, digits, symbols, and whitespace, and is typically enclosed in quotes (either single or double quotes, depending on the programming language).
+
+Strings are commonly used to represent data in computer programs, such as names, addresses, messages, and file paths. They can be manipulated using a variety of string operations, such as concatenation (combining two or more strings), substring (extracting a portion of a string), and searching (finding a specific character or substring within a larger string).
+
+Strings are implemented differently in different programming languages and can be represented as an array of characters, a linked list of characters, or a specialized data type. Some programming languages provide built-in functions and libraries for working with strings, while others require the programmer to implement their own string manipulation algorithms.
+
+
+Here are some common reasons why String is used in Java:
+
+Storing text: Strings are often used to store text, such as user input, file contents, or database records.
+
+Manipulating text: Strings provide a rich set of built-in methods for manipulating text, such as substring(), replace(), and split(). These methods make it easy to perform common text operations without having to write custom code.
+
+Comparing text: Strings can be compared using the equals() method, which checks whether two strings have the same contents. This is often used to test for equality between user input and expected values.
+
+Concatenating text: Strings can be concatenated using the + operator, which allows two or more strings to be combined into a single string.
+
+Passing text between methods: Strings can be passed as arguments to methods, making it easy to build modular programs that operate on text data.
+
+
+
+
+Declaration of Strings in java 
+
+Syntax:  
+
+<String_Type> <string_variable> = "<sequence_of_string>"; 
+
+String str = "Geeks";
+
+
+
+
+Mostly used methods of strings are:
+
+length(): O(1) - This method simply returns the length of the string, which is stored as a member variable.
+
+charAt(int index): O(1) - This method retrieves the character at the specified index in the string, which is stored as an array of characters.
+
+substring(int beginIndex, int endIndex): O(n) - This method creates a new String object that contains the substring of the original string, which requires iterating over n characters (where n = endIndex - beginIndex).
+
+equals(Object obj): O(n) - This method compares each character of the string to the corresponding character of the specified object (which must also be a String), requiring iterating over n characters.
+
+equalsIgnoreCase(String str): O(n) - This method is similar to equals(), but ignores case differences. It also requires iterating over n characters.
+
+startsWith(String prefix) and endsWith(String suffix): O(m) - These methods compare the specified prefix or suffix to the beginning or end of the string, respectively. The time complexity is O(m), where m is the length of the prefix or suffix.
+
+indexOf(int ch) and lastIndexOf(int ch): O(n) - These methods search for the specified character in the string by iterating over n characters.
+
+replace(char oldChar, char newChar) and replaceAll(String regex, String replacement): O(n) - These methods replace all occurrences of the specified character or regular expression in the string with the specified replacement string, requiring iterating over n characters.
+
+toLowerCase() and toUpperCase(): O(n) - These methods create a new string with all characters converted to lowercase or uppercase, requiring iterating over n characters.
+
+trim(): O(n) - This method creates a new string with leading and trailing whitespace removed, requiring iterating over n characters.
